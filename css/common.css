@@ -199,13 +199,27 @@
   }
 }
 
-.row {
-  overflow: hidden;
-}
 
-.col_3 img{
+.icon_group{
+  max-width: 40%;
+  margin: 0 auto;
+}
+.icon img{
   width:120px;
   height:120px;
-  margin:45px;
-  float:left
+  margin:50px;
+  display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+  justify-content: space-between;
+  float:left;
+}
+
+.bottom img:hover{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.1875em);
+}
+
+.icon p{
+  float:left;
 }
