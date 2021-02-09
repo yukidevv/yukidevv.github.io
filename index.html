@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <!-- meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/common.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
-    <title>Yuki</title>
-  </head>
-  <body>
-        <!-- top -->
-        <div class="top">
-          <h1 style="text-align:center">Yuki</h1>
-          <h2 style="text-align: center;">YYYYYY</h2> 
-          <p style="text-align: center;">
-            やる気が出れば作り込みます<br>
-            <br>
-          </p>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+      
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-overlay">
+                <h1 class="brand">Yuki</h1>
+                <div class="caption">
+                    <div class="typed">
+                        <h2 class="typed-string"></h2>
+                        <div id="typed-strings">
+                            <p>Yuki.N>このプログラムが起動するのは一度きりである。</p>
+                            <p>実行ののち、消去される。</p>
+                            <p>非実行が選択された場合は起動せずに消去される。</p>
+                            <p>Ready？</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+      <div class="footer">
+        <section class="social">
+            <div class="container">
+                <h2>Links</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://twitter.com/nomad0481" rel="nofollow" target="_blank">
+                            <img alt="Twitter" title="Twitter" src="./images/twitter_icon.png">
+                        </a>
+                        <p><a class="text-light" href="https://twitter.com/nomad0481">@nomad0481</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://github.com/Yukiprog" rel="nofollow" target="_blank">
+                            <img alt="Github" title="Github" src="./images/github_icon.png">
+                        </a>
+                        <p><a class="text-light" href="https://github.com/Yukiprog">YukiProg</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://noma048.hatenablog.com/archive" target="_blank">
+                            <img alt="Hatena" title="Hatena" src="./images/hatena_icon.png">
+                        </a>
+                        <p> <a class="text-light" href="https://noma048.hatenablog.com/archive">blog</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-  <div class="bottom">
-    <!-- bottom -->
-    <h2 style="text-align: center;">リンク等</h2>
-    <div class="icon_group">
-      <div class="icon">
-        <a href="https://github.com/Yukiprog">
-          <img src="./images/github_icon.png">
-        </a>
-       <!-- <p><a class="text-light" href="https://github.com/Yukiprog">Yukiprog</a></p>     -->
-      </div>
-      <div class="icon">
-        <a href="https://twitter.com/nomad0481">
-            <img src="./images/twitter_icon.png">
-        </a>
-            <!--  <p><a class="text-light" href="https://twitter.com/nomad0481">nomad0481</a></p>-->
-      </div>
-        <div class="icon">
-            <a href="https://noma048.hatenablog.com/archive">
-                <img src="./images/hatena_icon.png">
-            </a>
-              <!--  <p><a class="text-light" href="https://noma048.hatenablog.com/archive">Blog</a></p>-->
-      </div>
     </div>
-  </div>   
-  </body>
+
+       <script src="./js/typed.min.js"></script>
+<script>var typed = new Typed('.typed-string', 
+{ stringsElement: '#typed-strings', typeSpeed: 80, startDelay: 1000, backDelay: 2000, loop: true });</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
 </html>
