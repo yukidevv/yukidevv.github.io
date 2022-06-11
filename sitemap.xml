@@ -2,24 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://Yukiprog.github.io/</loc>
+    <lastmod>2022-06-11T17:38:41+09:00</lastmod>
+  </url><url>
+    <loc>https://Yukiprog.github.io/posts/</loc>
+    <lastmod>2022-06-11T17:38:41+09:00</lastmod>
+  </url><url>
+    <loc>https://Yukiprog.github.io/posts/a/</loc>
+    <lastmod>2022-06-11T17:38:41+09:00</lastmod>
+  </url><url>
+    <loc>https://Yukiprog.github.io/posts/hello-image/</loc>
     <lastmod>2022-06-11T16:05:46+09:00</lastmod>
   </url><url>
-    <loc>/posts/hello-image/</loc>
-    <lastmod>2022-06-11T16:05:46+09:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2022-06-11T16:05:46+09:00</lastmod>
-  </url><url>
-    <loc>/posts/hello-world/</loc>
+    <loc>https://Yukiprog.github.io/posts/hello-world/</loc>
     <lastmod>2022-06-11T11:33:22+09:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://Yukiprog.github.io/tags/</loc>
     <lastmod>2022-06-11T11:33:22+09:00</lastmod>
   </url><url>
-    <loc>/tags/untagged/</loc>
+    <loc>https://Yukiprog.github.io/tags/untagged/</loc>
     <lastmod>2022-06-11T11:33:22+09:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://Yukiprog.github.io/categories/</loc>
   </url>
 </urlset>
