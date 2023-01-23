@@ -6,7 +6,40 @@
     <description>Recent content in Post on yukidevv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Sep 2022 19:25:42 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 19:57:52 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>初代GpdPocket買った</title>
+      <link>https://yukidevv.github.io/post/20230123/</link>
+      <pubDate>Mon, 23 Jan 2023 19:57:52 +0900</pubDate>
+      
+      <guid>https://yukidevv.github.io/post/20230123/</guid>
+      <description>こんな感じ。
+とてもコンパクト。
+まさにUMPC。
+新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。
+専用のイメージがあるみたいだけど今はarchのインストールガイド
+から普通に入れられるみたい。
+インストール完了後は普段使い出来るようにX諸々を入れた。
+・DMはなし。startx起動
+・WMはXmonad
+・ブラウザはFirefox
+・日本語入力はfcitx+mozc
+・スクショにflameshot
+・オーディオはpavucontrol
+これで普段使いはOK。
+YoutubeみただけでかなりCPUもってかれる。。
+少し困った点は
+①GUI表示すると画面が縦になる
+②タッチスクリーンの座標問題
+③ディスプレイを閉じると一生復帰しなくなる
+①はxrandrで無理やり右回転をかますことで対応可能。
+以下のワンライナーを~/.xinitrcに記載する。
+xrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載
+TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;` xinput map-to-output $TSID DSI1 ③はわからん。
+とりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。
+ストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。</description>
+    </item>
+    
     <item>
       <title>富士山二回目</title>
       <link>https://yukidevv.github.io/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</link>
@@ -53,7 +86,7 @@ Github Pages
       <pubDate>Sat, 11 Jun 2022 16:05:46 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/hello-image/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>

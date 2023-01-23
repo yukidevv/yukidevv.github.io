@@ -143,6 +143,42 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>初代GpdPocket買った
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>こんな感じ。
+とてもコンパクト。
+まさにUMPC。
+新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。
+専用のイメージがあるみたいだけど今はarchのインストールガイド
+から普通に入れられるみたい。
+インストール完了後は普段使い出来るようにX諸々を入れた。
+・DMはなし。startx起動
+・WMはXmonad
+・ブラウザはFirefox
+・日本語入力はfcitx&#43;mozc
+・スクショにflameshot
+・オーディオはpavucontrol
+これで普段使いはOK。
+YoutubeみただけでかなりCPUもってかれる。。
+少し困った点は
+①GUI表示すると画面が縦になる
+②タッチスクリーンの座標問題
+③ディスプレイを閉じると一生復帰しなくなる
+①はxrandrで無理やり右回転をかますことで対応可能。
+以下のワンライナーを~/.xinitrcに記載する。
+xrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載
+TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;` xinput map-to-output $TSID DSI1 ③はわからん。
+とりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。
+ストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-23 19:57:52 +0900 JST'>January 23, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 初代GpdPocket買った" href="https://yukidevv.github.io/post/20230123/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>富士山二回目
     </h2>
   </header>
@@ -196,7 +232,7 @@ Github Pages
     </h2>
   </header>
   <div class="entry-content">
-    <p> </p>
+    <p></p>
   </div>
   <footer class="entry-footer"><span title='2022-06-11 16:05:46 +0900 JST'>June 11, 2022</span></footer>
   <a class="entry-link" aria-label="post link to Hello Image" href="https://yukidevv.github.io/post/hello-image/"></a>
@@ -216,7 +252,7 @@ Github Pages
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://yukidevv.github.io">yukidevv</a></span>
+    <span>&copy; 2023 <a href="https://yukidevv.github.io">yukidevv</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
