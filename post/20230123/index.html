@@ -166,7 +166,7 @@ TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;` xin
   "@type": "BlogPosting",
   "headline": "初代GpdPocket買った",
   "name": "初代GpdPocket買った",
-  "description": "こんな感じ。\nとてもコンパクト。\nまさにUMPC。\n新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。\n専用のイメージがあるみたいだけど今はarchのインストールガイド\nから普通に入れられるみたい。\nインストール完了後は普段使い出来るようにX諸々を入れた。\n・DMはなし。startx起動\n・WMはXmonad\n・ブラウザはFirefox\n・日本語入力はfcitx+mozc\n・スクショにflameshot\n・オーディオはpavucontrol\nこれで普段使いはOK。\nYoutubeみただけでかなりCPUもってかれる。。\n少し困った点は\n①GUI表示すると画面が縦になる\n②タッチスクリーンの座標問題\n③ディスプレイを閉じると一生復帰しなくなる\n①はxrandrで無理やり右回転をかますことで対応可能。\n以下のワンライナーを~/.xinitrcに記載する。\nxrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載\nTSID=`xinput list --id-only 'pointer:Goodix Capacitive TouchScreen'` xinput map-to-output $TSID DSI1 ③はわからん。\nとりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。\nストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。",
+  "description": "こんな感じ。\nとてもコンパクト。\nまさにUMPC。\n新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。\n専用のイメージがあるみたいだけど今はarchのインストールガイド\nから普通に入れられるみたい。\nインストール完了後は普段使い出来るようにX諸々を入れた。\n・DMはなし。startx起動\n・WMはXmonad\n・ブラウザはFirefox\n・日本語入力はfcitx+mozc\n・スクショにflameshot\n・オーディオはpavucontrol\nこれで普段使いはOK。\nYoutubeみただけでかなりCPUもってかれる。。\n少し困った点は\n①GUI表示すると画面が縦になる\n②タッチスクリーンの座標問題\n③ディスプレイを閉じると一生復帰しなくなる\n①はxrandrで無理やり右回転をかますことで対応可能。\n以下のワンライナーを~/.xinitrcに記載する。\nxrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載\nTSID=`xinput list --id-only \u0026#39;pointer:Goodix Capacitive TouchScreen\u0026#39;` xinput map-to-output $TSID DSI1 ③はわからん。\nとりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。\nストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。",
   "keywords": [
     
   ],
@@ -283,7 +283,7 @@ YoutubeみただけでかなりCPUもってかれる。。</p>
 以下のワンライナーを~/.xinitrcに記載する。</p>
 <pre tabindex="0"><code>xrandr -o right
 </code></pre><p>②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載</p>
-<pre tabindex="0"><code>TSID=`xinput list --id-only 'pointer:Goodix Capacitive TouchScreen'`
+<pre tabindex="0"><code>TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;`
 xinput map-to-output $TSID DSI1
 </code></pre><p>③はわからん。<br>
 とりあえずいいでしょう。 <br>

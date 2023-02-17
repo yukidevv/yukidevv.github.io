@@ -35,7 +35,7 @@ YoutubeみただけでかなりCPUもってかれる。。
 ①はxrandrで無理やり右回転をかますことで対応可能。
 以下のワンライナーを~/.xinitrcに記載する。
 xrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載
-TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;` xinput map-to-output $TSID DSI1 ③はわからん。
+TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#39;` xinput map-to-output $TSID DSI1 ③はわからん。
 とりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。
 ストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。</description>
     </item>
@@ -86,7 +86,7 @@ Github Pages
       <pubDate>Sat, 11 Jun 2022 16:05:46 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/hello-image/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
