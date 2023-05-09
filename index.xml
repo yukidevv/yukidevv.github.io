@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yukidevv</title>
     <link>https://yukidevv.github.io/</link>
@@ -13,31 +13,41 @@
       <pubDate>Mon, 23 Jan 2023 19:57:52 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/20230123/</guid>
-      <description>こんな感じ。
-とてもコンパクト。
-まさにUMPC。
-新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。
-専用のイメージがあるみたいだけど今はarchのインストールガイド
-から普通に入れられるみたい。
-インストール完了後は普段使い出来るようにX諸々を入れた。
-・DMはなし。startx起動
-・WMはXmonad
-・ブラウザはFirefox
-・日本語入力はfcitx+mozc
-・スクショにflameshot
-・オーディオはpavucontrol
-これで普段使いはOK。
-YoutubeみただけでかなりCPUもってかれる。。
-少し困った点は
-①GUI表示すると画面が縦になる
-②タッチスクリーンの座標問題
-③ディスプレイを閉じると一生復帰しなくなる
-①はxrandrで無理やり右回転をかますことで対応可能。
-以下のワンライナーを~/.xinitrcに記載する。
-xrandr -o right ②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載
-TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#39;` xinput map-to-output $TSID DSI1 ③はわからん。
-とりあえずいいでしょう。 はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない って感じなので微塵も使うビジョンが視えない。
-ストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。</description>
+      <description><![CDATA[ <p>こんな感じ。<br>
+とてもコンパクト。<br>
+まさにUMPC。<br>
+<img loading="lazy" src="/images/20230123/20230120_141150.jpg" alt=""  />
+</p>
+<p>新しい端末を手に入れたときの慣例としてArch Linuxを入れてみた。<br>
+専用のイメージがあるみたいだけど今はarchのインストールガイド<br>
+から普通に入れられるみたい。</p>
+<p>インストール完了後は普段使い出来るようにX諸々を入れた。<br>
+・DMはなし。startx起動<br>
+・WMはXmonad<br>
+・ブラウザはFirefox<br>
+・日本語入力はfcitx+mozc<br>
+・スクショにflameshot<br>
+・オーディオはpavucontrol<br>
+<img loading="lazy" src="/images/20230123/20230120_233428.jpg" alt=""  />
+
+これで普段使いはOK。<br>
+YoutubeみただけでかなりCPUもってかれる。。</p>
+<p>少し困った点は<br>
+　①GUI表示すると画面が縦になる<br>
+　②タッチスクリーンの座標問題<br>
+　③ディスプレイを閉じると一生復帰しなくなる<br>
+①はxrandrで無理やり右回転をかますことで対応可能。<br>
+以下のワンライナーを~/.xinitrcに記載する。</p>
+<pre tabindex="0"><code>xrandr -o right
+</code></pre><p>②は①に付随した問題。画面は回転するけどタッチスクリーンの座標までは回転してくれないので~/.xinitrcに以下を記載</p>
+<pre tabindex="0"><code>TSID=`xinput list --id-only &#39;pointer:Goodix Capacitive TouchScreen&#39;`
+xinput map-to-output $TSID DSI1
+</code></pre><p>③はわからん。<br>
+とりあえずいいでしょう。 <br>
+はっきり言ってキーボードは小さすぎて打ちづらい、文字は小さくて読めない
+って感じなので微塵も使うビジョンが視えない。<br>
+ストリートコンピューティングの時代にタイムスリップ出来るのなら使うかもしれない。20000円の高いおもちゃだった。。</p>
+]]></description>
     </item>
     
     <item>
@@ -46,13 +56,17 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
       <pubDate>Sat, 10 Sep 2022 19:25:42 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</guid>
-      <description>今年は富士宮、須走ルートで2回登ってみた。
-富士宮は可もなく不可もなくな感じ。
-なんか物足りなかったので2週間後に須走にも登ってみた。
-初だったけどなかなか良き。
-5合目〜6合目の樹林帯、下り7合目からの砂走りが良き。
-人が少ないのもとても丸。 8合目からの吉田ルート合流がなければ最高なんだが。。
-次はタイムを短くしていきたい。。</description>
+      <description><![CDATA[ <p>今年は富士宮、須走ルートで2回登ってみた。<br>
+富士宮は可もなく不可もなくな感じ。<br>
+なんか物足りなかったので2週間後に須走にも登ってみた。</p>
+<p>初だったけどなかなか良き。<br>
+5合目〜6合目の樹林帯、下り7合目からの砂走りが良き。<br>
+人が少ないのもとても丸。 <br>
+8合目からの吉田ルート合流がなければ最高なんだが。。</p>
+<p>次はタイムを短くしていきたい。。</p>
+<p><img loading="lazy" src="/images/20220910/20220910_070220.jpg" alt=""  />
+</p>
+]]></description>
     </item>
     
     <item>
@@ -61,11 +75,12 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
       <pubDate>Mon, 04 Jul 2022 12:11:18 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/004/</guid>
-      <description>開山したので。
-3年ぶりにはなるけどいきたいね。
-閉山する直前が理想かな。
-吉田か富士宮か。。
-山道具屋行ってきます。</description>
+      <description><![CDATA[ <p>開山したので。<br>
+3年ぶりにはなるけどいきたいね。</p>
+<p>閉山する直前が理想かな。</p>
+<p>吉田か富士宮か。。</p>
+<p>山道具屋行ってきます。</p>
+]]></description>
     </item>
     
     <item>
@@ -74,10 +89,11 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
       <pubDate>Sat, 11 Jun 2022 17:38:41 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/a/</guid>
-      <description>Github pagesとhugoを用いたブログシステムを構築しました。
-楽しかったです。
-Github Pages
-中身</description>
+      <description><![CDATA[ <p>Github pagesとhugoを用いたブログシステムを構築しました。<br>
+楽しかったです。</p>
+<p><a href="https://github.com/Yukiprog/Yukiprog.github.io/" title="github">Github Pages</a><br>
+<a href="https://github.com/Yukiprog/blog">中身</a></p>
+]]></description>
     </item>
     
     <item>
@@ -86,7 +102,9 @@ Github Pages
       <pubDate>Sat, 11 Jun 2022 16:05:46 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/hello-image/</guid>
-      <description> </description>
+      <description><![CDATA[ <p><img loading="lazy" src="/images/aaa.png" alt="this is a image"  />
+</p>
+]]></description>
     </item>
     
     <item>
@@ -95,7 +113,8 @@ Github Pages
       <pubDate>Sat, 11 Jun 2022 11:33:22 +0900</pubDate>
       
       <guid>https://yukidevv.github.io/post/hello-world/</guid>
-      <description>+# Hello World.</description>
+      <description><![CDATA[ <p>+# Hello World.</p>
+]]></description>
     </item>
     
     <item>
@@ -104,7 +123,9 @@ Github Pages
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yukidevv.github.io/about/about/</guid>
-      <description>このブログは? 適当に色々書くのです</description>
+      <description><![CDATA[ <h2 id="このブログは">このブログは?</h2>
+<p>適当に色々書くのです</p>
+]]></description>
     </item>
     
   </channel>
