@@ -6,7 +6,39 @@
     <description>Recent content in Post on yukidevv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 19:57:52 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 14:18:53 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>StableDiffusionWebUIしたい</title>
+      <link>https://yukidevv.github.io/post/20230608/</link>
+      <pubDate>Thu, 08 Jun 2023 14:18:53 +0900</pubDate>
+      
+      <guid>https://yukidevv.github.io/post/20230608/</guid>
+      <description>重い腰をあげて入門しはじめた。
+Linuxマシン上に環境を構築してMacからリモートで使用している。
+手順等を記しておく。
+マシン情報 OS : Ubuntu 22.04.2 LTS
+Kernel : 5.19.0-43-generic
+CPU : Intel Corei5-10400F
+MEM : 32GB
+GPU : Nvidia RTX3060 VRAM12GB
+環境構築 GithubのREADME通りにコマンドを叩いていく。
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+$ sudo apt install wget git python3 python3-venv $ bash &amp;lt;(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh) 必要なものが揃った。
+今回のように別マシンからの接続を想定している場合はもうひと工夫必要。
+webui-user.shファイル内を以下のように修正。 これをしないとアクセスが出来ない。
+#export COMMANDLINE_ARGS=&amp;#34;&amp;#34; export COMMANDLINE_ARGS=&amp;#34;--listen&amp;#34; 修正後、以下のshを実行。webui-user.shは内部から呼び出されている。
+$ ./webui.sh 起動しているはずなのでMacからブラウザでアクセスする。 準備完了。
+使ってみた　デフォルトのモデルを使用して画像を生成してみた。
+なんかええやん。。
+モデルには美少女特化系とか色々あるみたい。
+こういうサイトから好きなモデルを取ってきて適用するといいらしい。
+https://civitai.com/
+例えば「beautifulRealistic_brav5.safetensors」ってモデルと プロンプトの内容をコピってきていい感じの内容に変えると。
+「よし、妻にしてやるえ！」って感じになった。
+後はLoraなるもので自分を学習させたりして天竜人ごっことかをしてみたいと思った。
+以上</description>
+    </item>
+    
     <item>
       <title>初代GpdPocket買った</title>
       <link>https://yukidevv.github.io/post/20230123/</link>
