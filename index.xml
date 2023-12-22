@@ -6,7 +6,75 @@
     <description>Recent content on yukidevv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2023 20:28:28 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Dec 2023 12:07:57 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>私のHHKBについて</title>
+      <link>https://yukidevv.github.io/post/20231222/</link>
+      <pubDate>Fri, 22 Dec 2023 12:07:57 +0900</pubDate>
+      
+      <guid>https://yukidevv.github.io/post/20231222/</guid>
+      <description><![CDATA[ <h2 id="概要">概要</h2>
+<p>最近HHKBの挙動がおかしく。キー入力をしても全然別のキーが入力されたりする。<br>
+少々古いものであることと微改造を施しているためなのかは分からない。<br>
+壊れてしまう前に私のHHKBちゃんを紹介したい。</p>
+<h2 id="ご紹介">ご紹介</h2>
+<p>使用しているキーボードはHHKB Pro2の英語配列。製造日は2017-08となっている。<br>
+中古で20000円ほどで譲り受けた。<br>
+今までのHHKB変遷としては<br>
+HHKB Lite2 → HHKB HYBRID TypeS → HHKB Pro2と現在の物は3代目になる。<br>
+新しく出たものは電池パックが付いていたり、インターフェイスが一つしかなかったり(マウスのドングルを接続したいので)非常にスマートじゃない。</p>
+<p>これがだめ！
+<img loading="lazy" src="/images/20231222/SS2023-12-2212.30.35.jpg" alt=""  />
+</p>
+<p>電池ボックスがないのがいいの！
+<img loading="lazy" src="/images/20231222/20231222_121421.jpg" alt=""  />
+</p>
+<p>ただこれだとBluetooth接続が出来ないのがスマートじゃないと考えに至った。<br>
+とはいえ使う気はないのだが。</p>
+<p>兎にも角にも微改造である。<br>
+大陸からHHKBを改造するための基盤が購入出来るということで早速買ってみた。</p>
+<blockquote>
+<p><a href="https://ja.aliexpress.com/item/1005004329811007.html">https://ja.aliexpress.com/item/1005004329811007.html</a></p>
+</blockquote>
+<p>接続端子をUsb-Cに変換するものもあったが私はBluetooth化が目的だったので<br>
+mini-Usbのものを購入。<br>
+また、無線で使うためにはリポバッテリーが必要だ。<br>
+これはアマゾンからキーボード内に収まるものを購入。<br>
+※海外輸入だと規制に引っかかりバッテリーが届かない可能性があるとのこと。</p>
+<blockquote>
+<p><a href="https://www.amazon.co.jp/gp/product/B08DCVCB6H/">https://www.amazon.co.jp/gp/product/B08DCVCB6H/</a></p>
+</blockquote>
+<p>リポバッテリーと基盤から伸びている導線のサイズが合わなかったのは<br>
+はんだで無理やり付ける。</p>
+<p><img loading="lazy" src="/images/20231222/20221103_135660.jpg" alt=""  />
+</p>
+<p>これでBletooth化は完了。<br>
+赤丸の部分にUSBが仕込めるようにもなっていてこれが厨ニ心をくすぐる。<br>
+フェイタンもびっくりである。</p>
+<p>PC側も認識してくれている。
+<img loading="lazy" src="/images/20231222/SS2023-12-2217.03.09.jpg" alt=""  />
+</p>
+<p>バッテリーの持ちは全く使っておらず不明。有線がやっぱり好き。</p>
+<p>また、HHKB特有のディップスイッチは改造によって潰れることになる。</p>
+<p>このようにBluetoothのOn/Offスイッチになってしまう。見えづらいけど<br>
+<img loading="lazy" src="/images/20231222/20231222_121526.jpg" alt=""  />
+</p>
+<p>しかしそこは問題ない。以下のサイトでキーマップを自由に配置したものを作成し、
+HHKB本体に書き込むことが可能。今は公式からもキー配置ツールは出ているがより柔軟である。</p>
+<blockquote>
+<p><a href="https://ydkb.io/">https://ydkb.io/</a></p>
+</blockquote>
+<p>私のキー配置は以下に置いている。</p>
+<blockquote>
+<p><a href="https://github.com/yukidevv/hhkb_keymap">https://github.com/yukidevv/hhkb_keymap</a></p>
+</blockquote>
+<p>このような感じで微改造をしながら使用しているが、最近挙動が怪しく限界なのかもしれない。<br>
+HHKB Studioなるものが出たが、あれは少し大きすぎると思っている。<br>
+また中古でPro2を買ってる未来が見える。</p>
+<p>おわち</p>
+]]></description>
+    </item>
+    
     <item>
       <title>富士登山まとめ</title>
       <link>https://yukidevv.github.io/post/20230726/</link>
