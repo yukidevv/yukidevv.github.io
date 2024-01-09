@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Post on yukidevv</title>
-    <link>https://yukidevv.github.io/post/</link>
-    <description>Recent content in Post on yukidevv</description>
+    <title>Post on yukidev</title>
+    <link>https://yukidev.net/post/</link>
+    <description>Recent content in Post on yukidev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Dec 2023 11:43:55 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Dec 2023 11:43:55 +0900</lastBuildDate><atom:link href="https://yukidev.net/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023年振り返り</title>
-      <link>https://yukidevv.github.io/post/20231229/</link>
+      <link>https://yukidev.net/post/20231229/</link>
       <pubDate>Fri, 29 Dec 2023 11:43:55 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20231229/</guid>
+      <guid>https://yukidev.net/post/20231229/</guid>
       <description>概要 本年も色々あったが、無事に生きながらえることが出来た。
 今年は職を変えてみたりと大きな動きがあった年になった。
 ※しょうもない案件が始まりそうだったので違うことでもしてみるか、
@@ -66,10 +66,10 @@ FUJIYAMA
     
     <item>
       <title>私のHHKBについて</title>
-      <link>https://yukidevv.github.io/post/20231222/</link>
+      <link>https://yukidev.net/post/20231222/</link>
       <pubDate>Fri, 22 Dec 2023 12:07:57 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20231222/</guid>
+      <guid>https://yukidev.net/post/20231222/</guid>
       <description>概要 最近HHKBの挙動がおかしく。キー入力をしても全然別のキーが入力されたりする。
 少々古いものであることと微改造を施しているためなのかは分からない。
 壊れてしまう前に私のHHKBちゃんを紹介したい。
@@ -109,10 +109,10 @@ HHKB Studioなるものが出たが、あれは少し大きすぎると思って
     
     <item>
       <title>富士登山まとめ</title>
-      <link>https://yukidevv.github.io/post/20230726/</link>
+      <link>https://yukidev.net/post/20230726/</link>
       <pubDate>Wed, 26 Jul 2023 20:28:28 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20230726/</guid>
+      <guid>https://yukidev.net/post/20230726/</guid>
       <description>軌跡 2018
 富士宮ルート(20180801~20180802) 富士宮口五合目〜八合目(池田館)：4時間 八合目(池田館)〜山頂：2時間 山頂〜富士宮口五合目：？ 2022
 富士宮ルート(20220826~20220827) 富士宮口五合目〜八合目(池田館)：4時間30分 八合目(池田館)〜山頂：2時間30分 山頂〜富士宮口五合目：？ 須走ルート(20220909~20220910) 須走口五合目〜八合目(上江戸屋)：5時間30分 八合目(上江戸屋)〜山頂：1時間30分 山頂〜須走口五合目：2時間30分 2023
@@ -121,10 +121,10 @@ HHKB Studioなるものが出たが、あれは少し大きすぎると思って
     
     <item>
       <title>2023年1発目のFUJIYAMAに行ってきた</title>
-      <link>https://yukidevv.github.io/post/20230718/</link>
+      <link>https://yukidev.net/post/20230718/</link>
       <pubDate>Wed, 19 Jul 2023 23:43:31 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20230718/</guid>
+      <guid>https://yukidev.net/post/20230718/</guid>
       <description>今年１発目行ってきた。
 初めての御殿場ルート。
 結果としては7合目付近以降の雨、風が強く、勇気ある撤退をした。
@@ -151,10 +151,10 @@ HHKB Studioなるものが出たが、あれは少し大きすぎると思って
     
     <item>
       <title>StableDiffusionWebUIしたい</title>
-      <link>https://yukidevv.github.io/post/20230608/</link>
+      <link>https://yukidev.net/post/20230608/</link>
       <pubDate>Thu, 08 Jun 2023 14:18:53 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20230608/</guid>
+      <guid>https://yukidev.net/post/20230608/</guid>
       <description>重い腰をあげて入門しはじめた。
 Linuxマシン上に環境を構築してMacからリモートで使用している。
 手順等を記しておく。
@@ -183,10 +183,10 @@ https://civitai.com/
     
     <item>
       <title>初代GpdPocket買った</title>
-      <link>https://yukidevv.github.io/post/20230123/</link>
+      <link>https://yukidev.net/post/20230123/</link>
       <pubDate>Mon, 23 Jan 2023 19:57:52 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/20230123/</guid>
+      <guid>https://yukidev.net/post/20230123/</guid>
       <description>こんな感じ。
 とてもコンパクト。
 まさにUMPC。
@@ -216,10 +216,10 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
     
     <item>
       <title>富士山二回目</title>
-      <link>https://yukidevv.github.io/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</link>
+      <link>https://yukidev.net/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</link>
       <pubDate>Sat, 10 Sep 2022 19:25:42 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</guid>
+      <guid>https://yukidev.net/post/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%BA%8C%E5%9B%9E%E7%9B%AE/</guid>
       <description>今年は富士宮、須走ルートで2回登ってみた。
 富士宮は可もなく不可もなくな感じ。
 なんか物足りなかったので2週間後に須走にも登ってみた。
@@ -231,10 +231,10 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
     
     <item>
       <title>富士登山がしたい</title>
-      <link>https://yukidevv.github.io/post/004/</link>
+      <link>https://yukidev.net/post/004/</link>
       <pubDate>Mon, 04 Jul 2022 12:11:18 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/004/</guid>
+      <guid>https://yukidev.net/post/004/</guid>
       <description>開山したので。
 3年ぶりにはなるけどいきたいね。
 閉山する直前が理想かな。
@@ -244,10 +244,10 @@ TSID=`xinput list --id-only &amp;#39;pointer:Goodix Capacitive TouchScreen&amp;#
     
     <item>
       <title>はじめての</title>
-      <link>https://yukidevv.github.io/post/a/</link>
+      <link>https://yukidev.net/post/a/</link>
       <pubDate>Sat, 11 Jun 2022 17:38:41 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/a/</guid>
+      <guid>https://yukidev.net/post/a/</guid>
       <description>Github pagesとhugoを用いたブログシステムを構築しました。
 楽しかったです。
 Github Pages
@@ -256,19 +256,19 @@ Github Pages
     
     <item>
       <title>Hello Image</title>
-      <link>https://yukidevv.github.io/post/hello-image/</link>
+      <link>https://yukidev.net/post/hello-image/</link>
       <pubDate>Sat, 11 Jun 2022 16:05:46 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/hello-image/</guid>
+      <guid>https://yukidev.net/post/hello-image/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://yukidevv.github.io/post/hello-world/</link>
+      <link>https://yukidev.net/post/hello-world/</link>
       <pubDate>Sat, 11 Jun 2022 11:33:22 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/post/hello-world/</guid>
+      <guid>https://yukidev.net/post/hello-world/</guid>
       <description>+# Hello World.</description>
     </item>
     

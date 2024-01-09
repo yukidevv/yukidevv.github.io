@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on yukidevv</title>
-    <link>https://yukidevv.github.io/tags/</link>
-    <description>Recent content in Tags on yukidevv</description>
+    <title>Tags on yukidev</title>
+    <link>https://yukidev.net/tags/</link>
+    <description>Recent content in Tags on yukidev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jun 2022 11:33:22 +0900</lastBuildDate><atom:link href="https://yukidevv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 11:33:22 +0900</lastBuildDate><atom:link href="https://yukidev.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>untagged</title>
-      <link>https://yukidevv.github.io/tags/untagged/</link>
+      <link>https://yukidev.net/tags/untagged/</link>
       <pubDate>Sat, 11 Jun 2022 11:33:22 +0900</pubDate>
       
-      <guid>https://yukidevv.github.io/tags/untagged/</guid>
+      <guid>https://yukidev.net/tags/untagged/</guid>
       <description></description>
     </item>
     
