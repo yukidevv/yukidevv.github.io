@@ -1,2 +1,2 @@
-↓移行しました
+↓移行しました  
 https://yukidev.net/
