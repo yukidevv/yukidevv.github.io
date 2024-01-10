@@ -1,1 +1,2 @@
-https://yukidevv.github.io/
+↓移行しました
+https://yukidev.net/
